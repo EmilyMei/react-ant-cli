@@ -13,11 +13,13 @@ import TableMain from '../views/Table';
 import ChartMain from '../views/ChartMain';
 import FormMain from '../views/FormMain';
 const Provider = require('react-redux').Provider;
+import configureStore  from '../store/configureStore';
 
+const store = configureStore();
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={hashHistory} onEnter={validate}>
-      <Route path='/' onEnter={validate}>
+    <Router history={hashHistory} >
+      <Route path='/' >
         {/* 正常情况默认首页 */}
         <IndexRedirect to='index' />
         <Route component={App}>
