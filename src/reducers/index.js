@@ -9,7 +9,6 @@ const InitState = {
 export default createReducer(InitState, {
   [`${types.GET_TABS_DATA}_SUCCESS`]: (state, data) => {
     const stateClone = clone(state);
-    console.log(data.data);
     if(data.status === 1){
       stateClone.tabData = data.data;
     }
