@@ -1,9 +1,9 @@
 {
-  "name": "react-falsework",
+  "name": "{{name}}",
   "version": "1.0.0",
   "description": "A simple version for the PC side react + ant design scaffolding",
   "main": "index.js",
-  "author": "IMei",
+  "author": "{{author}}",
   "private": false,
   "license": "MIT",
   "entry": {},
