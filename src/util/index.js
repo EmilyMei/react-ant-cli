@@ -227,10 +227,6 @@ export const setArraytoObj = (function f(params, str, num, callback) {
 
 export function getServerBase(){
   switch (process.env.NODE_ENV) {
-    case 'dev': return 'http://10.107.20.17:8087';//开发接口请求地址
-    case 'test': return 'https://iot-home-test.crlandpm.com.cn';
-    case 'staging': return 'https://precustomerservicebackend.crlandpm.com.cn';
-    case 'prod': return 'https://iot.crlandpm.com.cn:6443';//生产环境请求地址
     default: return 'http://localhost/api/';
   }
 }
