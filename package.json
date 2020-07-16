@@ -65,7 +65,7 @@
     "key-mirror": "^1.0.1",
     "less": "^3.0.1",
     "less-loader": "^4.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "lodash.debounce": "^4.0.8",
     "log4js": "0.6.38",
     "md5": "^2.1.0",
